@@ -1,0 +1,8 @@
+# Compiled Python modules
+*.pyo
+*.pyc
+
+# vscode
+.vscode
+
+*.sqlite3

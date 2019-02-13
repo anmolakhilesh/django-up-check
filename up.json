@@ -1,0 +1,14 @@
+{
+    "name": "up-checker-app",
+    "profile": "default",
+    "proxy": {
+        "command": "python3 app.py runserver 0.0.0.0:$PORT"
+    },
+    "regions": [
+      "us-east-2"
+    ],
+    "lambda": {
+      "memory": 256,
+      "accelerate": true
+  }
+}
